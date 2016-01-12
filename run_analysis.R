@@ -39,3 +39,5 @@ sds <- apply(data_all[,-c(1,2)],2, sd) # 2 indicates use columns, not rows
 
 #Calculate tidy data set with means for each variable arranged for each person and activity
 tidy_dataset <- ddply(data_all, .(PersonID,Activity), colwise(mean))
+
+write.table(tidy_dataset, file='tidy_dataset.txt', row.name=FALSE)
