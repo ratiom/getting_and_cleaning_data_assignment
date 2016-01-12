@@ -1,3 +1,16 @@
+### Join data frame to one DF
+test_all  - All test data, including subjects and activities
+train_all  - All train data, including subjects and activities
+data_all  - Combined test and training data
+
+##Generate Column means in data all
+aves
+
+##Generate Column standard deviations from data_all. Drop first 2 columns
+sds
+
+##Calculate tidy data set with means for each variable arranged for each person and activity
+tidy_dataset 
 
 Feature Selection 
 =================
